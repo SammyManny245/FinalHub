@@ -28,7 +28,7 @@
     "ai": ".",
     "aiVerify": ".",
     "notes": ".",
-    "plan": "",
+    "plan": "I chose this simple story because I want to start with an easy game for me.",
     "availability": "Classroom & Discord\n2026-12-01 16:10–20:00 Pacific",
     "service": "Visual Ideas, creating player movement and controls and making concept art.",
     "supportMode": "team",
@@ -87,9 +87,9 @@
     "huddle": {
       "stage": 2,
       "returned": true,
-      "goal": "A",
-      "personal": "",
-      "questions": ""
+      "goal": "Make a person traverse through at least three dimensions and fight off an enemy.",
+      "personal": "In my own role, I will develop a few assets and create a visual plan to follow.",
+      "questions": "I sure hope to test the player movement and basic combat system."
     },
     "evidence": {},
     "dailyDraft": {
@@ -185,7 +185,30 @@
         "evidence": "Use data-driven interactions in more than one situation; show how new content can be added."
       }
     ],
-    "tasks": [],
+    "tasks": [
+      {
+        "id": "31cc3b09-a338-412b-bac5-4dd4ce8c6f37",
+        "title": "Create First Level: Tutorial",
+        "owner": "Samuel Leal",
+        "due": "2026-11-19T16:10",
+        "done": false,
+        "result": "",
+        "description": "This must be done by the weekend.",
+        "nodeId": "",
+        "dependsOn": []
+      },
+      {
+        "id": "e6c09c3a-c71b-4815-a637-f0727aa862e4",
+        "title": "Create Player Movement",
+        "owner": "Samuel Leal",
+        "due": "2026-11-24T09:00",
+        "done": false,
+        "result": "",
+        "description": "Must be done by the weekend",
+        "nodeId": "",
+        "dependsOn": []
+      }
+    ],
     "dailyNotes": []
   },
   "team": {
@@ -201,9 +224,83 @@
     ]
   },
   "sharedPlan": {
-    "goal": "",
-    "plan": "",
-    "tasks": []
+    "goal": "Make a person traverse through at least three dimensions and fight off an enemy.",
+    "plan": "I chose this simple story because I want to start with an easy game for me.",
+    "board": {
+      "nodes": [
+        {
+          "id": "e40898ef-aa79-46d2-b922-e5780b7390f2",
+          "kind": "box",
+          "x": 0,
+          "y": 95.73567708333326,
+          "w": 159.58333333333348,
+          "h": 72.91666666666674,
+          "text": "The Start: Build Tutorial Level",
+          "owner": "",
+          "due": "",
+          "description": ""
+        },
+        {
+          "id": "afba553a-01fa-44ea-95ed-d2fdaba77dd6",
+          "kind": "box",
+          "x": 0,
+          "y": 262.4023437500002,
+          "w": 150,
+          "h": 70,
+          "text": "Start 2: Create Player Movement with Jump",
+          "owner": "",
+          "due": "",
+          "description": ""
+        },
+        {
+          "id": "776b575a-f417-4241-8fe2-f3a4f9fa9c49",
+          "kind": "box",
+          "x": 445.83333333333326,
+          "y": 355.41666666666674,
+          "w": 150,
+          "h": 70,
+          "text": "Middle: Build Valley Level",
+          "owner": "",
+          "due": "",
+          "description": ""
+        }
+      ],
+      "edges": [
+        {
+          "from": "e40898ef-aa79-46d2-b922-e5780b7390f2",
+          "to": "afba553a-01fa-44ea-95ed-d2fdaba77dd6"
+        },
+        {
+          "from": "afba553a-01fa-44ea-95ed-d2fdaba77dd6",
+          "to": "776b575a-f417-4241-8fe2-f3a4f9fa9c49"
+        }
+      ],
+      "strokes": []
+    },
+    "tasks": [
+      {
+        "id": "31cc3b09-a338-412b-bac5-4dd4ce8c6f37",
+        "title": "Create First Level: Tutorial",
+        "owner": "Samuel Leal",
+        "due": "2026-11-19T16:10",
+        "done": false,
+        "result": "",
+        "description": "This must be done by the weekend.",
+        "nodeId": "",
+        "dependsOn": []
+      },
+      {
+        "id": "e6c09c3a-c71b-4815-a637-f0727aa862e4",
+        "title": "Create Player Movement",
+        "owner": "Samuel Leal",
+        "due": "2026-11-24T09:00",
+        "done": false,
+        "result": "",
+        "description": "Must be done by the weekend",
+        "nodeId": "",
+        "dependsOn": []
+      }
+    ]
   },
   "completedReports": []
 }

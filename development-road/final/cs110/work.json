@@ -39,7 +39,7 @@
           "id": "e40898ef-aa79-46d2-b922-e5780b7390f2",
           "kind": "box",
           "x": 0,
-          "y": 141.56901041666674,
+          "y": 95.73567708333326,
           "w": 159.58333333333348,
           "h": 72.91666666666674,
           "text": "The Start: Build Tutorial Level",
@@ -50,8 +50,8 @@
         {
           "id": "afba553a-01fa-44ea-95ed-d2fdaba77dd6",
           "kind": "box",
-          "x": 130.20833333333303,
-          "y": 185.31901041666697,
+          "x": 0,
+          "y": 262.4023437500002,
           "w": 150,
           "h": 70,
           "text": "Start 2: Create Player Movement with Jump",
@@ -85,9 +85,9 @@
       "strokes": []
     },
     "huddle": {
-      "stage": 1,
+      "stage": 2,
       "returned": true,
-      "goal": "",
+      "goal": "A",
       "personal": "",
       "questions": ""
     },
